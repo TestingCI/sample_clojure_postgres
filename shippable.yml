@@ -6,6 +6,7 @@ lein:
 env:
  global:
   - secure: AmgZCWSdweuqi2MyzOIY66SgR6zDDVTUt+7/C1GCJqhgTl7Mx/6SLOFDyjVjHgRPcX/S6yFctMYhS1IW6XV3e57ZeGD9kHSt+8uEf1ewyldRlW4qJRKAphmcFFXAZ1KkcGPJfLTmEN5aeWOZzH+svUiyqLQE76qFNQuWWqQTzuwMwvcb0zxHYouEjDhB01dHhmhOJbG/V2VLl3CZ9wP8Re3L8ffS828c2/ONcRq357+aO+9J8bpV2u/tbxR8YwT8xyG/Q4qEu9hrup7+hkKrmCW24MsBOqaHXxv1VYs83EhpLAHzP7hWkkQglwgDdIMTxIMJFzK3hR3+o99p7qlnsA==
+  - myvar="vidya"
 # Addons used by app
 addons:
   postgresql: "9.3"
@@ -22,3 +23,4 @@ script:
   - cd sample
   - lein test
   - echo $foo
+  - echo $myvar
