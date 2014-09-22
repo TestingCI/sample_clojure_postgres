@@ -6,4 +6,4 @@
 
 (deftest a-test
   (testing "Simple Postges query"
-    (is (.contains (-main "lindsybluth") "lindsay@bluth.com"))))
+    (is (.contains (-main "lindsaybluth") "lindsay@bluth.com"))))
