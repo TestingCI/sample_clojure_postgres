@@ -25,3 +25,4 @@ script:
   - lein test
   - echo $foo
   - echo $myvar
+cache: true
