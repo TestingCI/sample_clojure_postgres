@@ -5,7 +5,8 @@ lein:
   - lein2
 env:
  global:
-  - secure: AmgZCWSdweuqi2MyzOIY66SgR6zDDVTUt+7/C1GCJqhgTl7Mx/6SLOFDyjVjHgRPcX/S6yFctMYhS1IW6XV3e57ZeGD9kHSt+8uEf1ewyldRlW4qJRKAphmcFFXAZ1KkcGPJfLTmEN5aeWOZzH+svUiyqLQE76qFNQuWWqQTzuwMwvcb0zxHYouEjDhB01dHhmhOJbG/V2VLl3CZ9wP8Re3L8ffS828c2/ONcRq357+aO+9J8bpV2u/tbxR8YwT8xyG/Q4qEu9hrup7+hkKrmCW24MsBOqaHXxv1VYs83EhpLAHzP7hWkkQglwgDdIMTxIMJFzK3hR3+o99p7qlnsA==
+  - secure: NQQ1EARFXIvng2KD/d0abzTaXhUrw9joeZWC6R0gXvZ6Uboy0n/3X5xrX0Zw6lzzzMyudTlmloQP2JA1fo+r6dQn/TJHWkcZvNBn/JLW/FTwVqQZLq5TiK2Dl2ZvYSDgLiywrq+QM3q/y3kXFAq5b+z2Fw0aw5NpqxT4wyBcvd74zc+D2nAqeyqSiAqrJElT9s5VkE87q0f/WSU77+QpRb8gGtWkABD9ds3s+SYx1vJ4zCVzqgsPGmM8HqGIRD9DTvjj2HWaQTcUcNBrxF6dlxFbTZwX/WYtu/qajPu4QUrYy9Yin5LK4I76qtrKcFE7TGO8viRzIObrC1uU3kkIQQ==
+  #- secure: AmgZCWSdweuqi2MyzOIY66SgR6zDDVTUt+7/C1GCJqhgTl7Mx/6SLOFDyjVjHgRPcX/S6yFctMYhS1IW6XV3e57ZeGD9kHSt+8uEf1ewyldRlW4qJRKAphmcFFXAZ1KkcGPJfLTmEN5aeWOZzH+svUiyqLQE76qFNQuWWqQTzuwMwvcb0zxHYouEjDhB01dHhmhOJbG/V2VLl3CZ9wP8Re3L8ffS828c2/ONcRq357+aO+9J8bpV2u/tbxR8YwT8xyG/Q4qEu9hrup7+hkKrmCW24MsBOqaHXxv1VYs83EhpLAHzP7hWkkQglwgDdIMTxIMJFzK3hR3+o99p7qlnsA==
   - myvar="vidya"
 # Addons used by app
 addons:
@@ -24,4 +25,5 @@ script:
   - lein test
   - echo $foo
   - echo $myvar
+  - echo $test_vars
 #cache: true
